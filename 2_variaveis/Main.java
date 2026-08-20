@@ -1,6 +1,6 @@
 
 
-public class Aula {
+public class Main {
         public static void main(String[] args) {
             String nome = "Savalo";
             String sobrenome = "Horse";
@@ -19,7 +19,7 @@ public class Aula {
             System.out.println("Altura: " + altura);
             System.out.println("Empregado: " + empregado);
             System.out.println("Telefone: " + telefone);
-            System.out.println("Endereço: " + endereco);
+            System.out.println("Endereco: " + endereco);
             System.out.println("CEP: " + cep);
             System.out.println("Cidade: " + cidade);
             System.out.println("UF: " + uf);
