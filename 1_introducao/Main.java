@@ -6,7 +6,6 @@ public class Main {
         System.out.println("O aluno 1:" + aluno_1);
         System.out.println("O aluno 2:" + aluno_2);
         System.out.println(aluno_1 + "eh casado com" + aluno_2);
-
     }
+    
 }
-

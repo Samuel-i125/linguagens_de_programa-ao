@@ -7,6 +7,32 @@ public class Main {
         System.out.println(saudacao.indexOf("W"));
         System.out.println(saudacao.charAt(6));
 
+        String aluno_1 = "Miranata";
+        String aluno_2 = "Aeronauta";
+        System.out.println(aluno_1.equals(aluno_2));
+
+        String nome = "Savalo";
+        String sobrenome = "Horse";
+        System.out.println(nome + " " + sobrenome);
+
+        String aluno_3 = "Pombinha da Paz Silva";
+        System.out.println (aluno_3.contains("Paz"));
+
+        String aluno_4 = "";
+        System.out.println(aluno_4.isEmpty());
+
+        String frutas = String.join ("-", "Laranja", "Banana");
+        System.out.println(frutas);
+
+        String nome_completo = "Del Lokom Pirom";
+        System.out.println(nome_completo.replace("m", "n"));
+
+        String texto = "Boa Noite!";
+        System.out.println(texto.substring(4,9));
+
+        String frase = "Repeticao com \"correcao\" leva a \"perfeicao\"";
+        System.out.println(frase);
+
     }
     
 }
