@@ -28,10 +28,11 @@ public class Main {
 
     if (algarismo > 0) {
         System.out.println ("Positivo " + algarismo);
-        if (algarismo == 0 ) 
+    } else if (algarismo == 0 ) {
         System.out.println ("o numero " + algarismo);
-        if (algarismo < 0)
+    } else if (algarismo < 0) {
         System.out.println ( "Negativo " + algarismo);
+    }
         }
 
 
@@ -40,5 +41,5 @@ public class Main {
 
 
     
-}
+
 
