@@ -1,19 +1,16 @@
-package Lista_de_exercicios.ex9;
+package Lista_de_exercicios.ex10;
 
 public class Main {
     public static void main(String[] args) {
         
         int soma = 0;
 
-        for (int j = 1; j<101; j++) {
+        for (int j = 2; j<101; j = j + 2) {
             System.out.print (j + "+");
             soma += j;
         }
         
-        // for (int i = 1; i<101; i++)
-        // soma += i;
-        
         System.out.println ("Resultado: " + soma);
     }
+    }
     
-}
