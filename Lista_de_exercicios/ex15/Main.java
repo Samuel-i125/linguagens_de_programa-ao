@@ -7,6 +7,7 @@ public class Main {
         notas/5;
         
         System.out.println(notas);
+        2
     }
     
 }
